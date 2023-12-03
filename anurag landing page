@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #header {
+            height: 7vmin;
+            width: auto;
+            background: linear-gradient(90deg,
+                    rgb(125, 128, 120) 50%,
+                    rgb(10, 10, 10) 100%);
+            position: sticky;
+            text-align: right;
+            color: rgb(241, 236, 236);
+        }
+
+        #header ul {
+            list-style: none;
+
+        }
+
+        #header img {
+            height: 40px;
+            width: 40px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 50%;
+        }
+
+        #intro ul li {
+            padding: 2vw;
+            list-style: none;
+            background: linear-gradient(90deg,
+                    rgb(165, 205, 235) 50%,
+                    rgb(13, 173, 93) 100%);
+                    
+        }
+
+        #LIST ul li {
+            padding-left: 6vw;
+            padding-top: 13vmin;
+            list-style: none;
+        }
+
+        .dis li {
+            list-style: none;
+        }
+
+        .dis {
+            display: flex;
+        }
+
+        #intro {
+            height: 10vmin;
+            width: auto;
+            overflow: auto;
+            font-size: larger;
+        }
+
+        #body {
+            background-image: url("1.jpeg");
+
+            background-size: 100% 100%;
+            height: 75vmin;
+            width: auto;
+            text-align: left;
+            color: rgb(247, 241, 241);
+        }
+
+        #LIST {
+            height: 30vmin;
+            width: auto;
+            background: linear-gradient(90deg,
+                    orange 50%,
+                    magenta 100%);
+        }
+
+        #info {
+            width: auto;
+            height: 61vmin;
+            background-image: url("2.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: rgb(248, 245, 245);
+
+        }
+
+        #footer {
+            background: linear-gradient(90deg,
+                    rgb(127, 152, 199) 50%,
+                    rgb(255, 0, 0) 100%);
+            height: 50vmin;
+            width: auto;
+            font-size: x-large;
+            text-align: left;
+            padding-left: 15vw;
+            padding-top: 5vmin;
+        }
+
+        .body {
+            font-size: x-large;
+            text-align: left;
+            padding: 15vw;
+        }
+
+        .but {
+            background: linear-gradient(90deg, orange 50%, magenta 100%);
+            height: 5vmin;
+            width: 11vw;
+            border-radius: 25px;
+            color: rgb(0,0, 0);
+
+        }
+
+        .info {
+            font-size: x-large;
+            text-align: left;
+            padding-left: 15vw;
+            padding-top: 5vmin;
+            padding-right: 35vw;
+        }
+
+        .footer {
+            height: 15vh;
+            width: 20vw;
+            padding-left: 4vw;
+            padding-top: 7vh;
+        }
+
+        #conc {
+            padding-top: 20px;
+            font-size: larger;
+            padding-left: 55vw;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <ul class="dis">
+            <font size="8px">|</font>
+            <li><img src="fb.png" alt="facebook"></li><font size="8px">|</font>
+            <li><a href="https://instagram.com/ismart_yadavv?igshid=MzMyNGUyNmU2YQ=="><img src="insta.jpeg" alt="instagram"></a></li><font size="8px">|</font>
+            <li><img src="linkedin.png" alt="linkedin"></li><font size="8px">|</font>
+            <li><img src="twitter.png" alt="x"></li><font size="8px">|</font>
+            
+            <li>
+                
+                <div id="conc">
+                    <p>anurag9y@gmail.com | +91-9450662028</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="intro">
+        <ul class="dis">
+            <li>
+                <h3>Landing Page</h3>
+            </li>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Page</li>
+            <li>Services</li>
+            <li>Testimonals</li>
+            <li>Contact</li>
+            <li>Buy Now</li>
+            
+        </ul>
+    </div>
+    <div id="body">
+        <div class="body">
+            <h3>we are creative</h3><br>
+            <h2>CREATIVE DIGITAL AGENCY</h2><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, animi nobis? Architecto atque
+                consectetur
+                eveniet rem delectus sapiente dolores repellendus tenetur, voluptates esse et cupiditate, quod voluptas
+                laborum, illo deserunt.</p><br>
+            <button class="but"><b>READ MORE</b></button>&nbsp;&nbsp;<button class="but"><b>REQUEST &
+                    CONTINUE</b></button>
+        </div>
+    </div>
+    <DIV id="LIST">
+        <ul class="dis">
+            <li>
+                <h3><b>LAUNCH BUSSINESS</b></h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </li>
+            <li>
+                <h3><b>ONLINE SUPPORT TEAM</b></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+                <h3><b>TIME MANAGEMENT</b></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+        </ul>
+
+    </DIV><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+    <div id="info">
+        <div class="info">
+            <h2><u>ABOUT US</u></h2><br>
+            <H3>15 years, we passionate about achieving better results for our clients</H3><br>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint omnis excepturi, optio voluptatem pariatur
+                ratione delectus nihil doloremque voluptates nulla dolorum a, cumque laudantium nam iusto rem, placeat
+                ipsa
+                possimus.
+                Eaque dolorum perspiciatis cum! Dignissimos a veritatis vero eum velit accusamus porro sint veniam
+                corporis?
+                Tenetur deserunt nesciunt labore eaque ipsa maxime voluptatem, asperiores deleniti quos facilis
+                laudantium
+                at quasi.</p><br>
+            <button class="but">READ MORE</button>
+        </div>
+    </div><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+    <div id="footer">
+        <h2>OUR SERVICES</h2>
+        <ul class="dis">
+            <li><img class="footer" src="userexperience.jpeg" alt="loading image">
+            <font color="white" size="6px"><figcaption align="right">USER EXPERIENCE</figcaption></font></li>
+            <li><img class="footer" src="creatived.jpeg" alt="loading image">
+                <font color="white" size="6px"><figcaption align="right">CREATIVE DESIGN</figcaption></font></li>
+            <li><img class="footer" src="4.jpeg" alt="loading image">
+                <font color="white" size="6px"><figcaption align="right">RETINA READY</figcaption></font></li>
+                
+        </ul>
+        <br><br><center><b><i>
+        <font size="8px" color="white">
+          Thank You
+        </font></i></b></center><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+
+    </div>
+    
+</body>
+
+</html>
